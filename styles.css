@@ -1,0 +1,19 @@
+body {
+	/* background-image: url("./assets/annie-spratt-xTaOPMa6wAE-unsplash.jpg");
+	background-size: cover;
+  */
+	background-color: #eaeaea;
+}
+
+main > .container {
+	padding: 60px 15px 0;
+}
+
+.custom-nav {
+	background-color: #5f0606;
+}
+
+.wordy-logo {
+	height: fit-content;
+	width: 5em;
+}
