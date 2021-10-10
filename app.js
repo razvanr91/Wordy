@@ -65,7 +65,11 @@ function addWord(word) {
 		return;
 	}
 
-	return alert("Word already exists!");
+	return generateToast(
+		"Word exists",
+		`The word "${wordInput.value}" already exists in your dictionary.`,
+		"bg-danger"
+	);
 }
 
 function deleteWords() {
