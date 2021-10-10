@@ -86,16 +86,45 @@
 								Display all words
 							</button>
 						</div>
+
+						<div id="tableDiv" class="container my-3"></div>
+					</div>
+					<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+						<div
+							id="liveToast"
+							class="toast text-white"
+							role="alert"
+							aria-live="assertive"
+							aria-atomic="true"
+						>
+							<div class="toast-header">
+								<img src="./assets/logo_small_icon_only.png" class="rounded me-2 img-fluid" width="10%" alt="Wordy logo" />
+								<strong class="me-auto" id="toast-alert"></strong>
+								<button
+									type="button"
+									class="btn-close"
+									data-bs-dismiss="toast"
+									aria-label="Close"
+								></button>
+							</div>
+							<div class="toast-body" id="toast-message"></div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</main>
 		<!-- Bootstrap JS -->
 		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+			integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
 			crossorigin="anonymous"
 		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+			integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+			crossorigin="anonymous"
+		></script>
+
 		<script src="./app.js"></script>
 	</body>
 </html>
